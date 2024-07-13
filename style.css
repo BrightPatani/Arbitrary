@@ -55,3 +55,48 @@ p {
 .footer2 {
     text-align: right;
 }
+
+@media (max-width: 768px) {
+    .body {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .footer1, .footer2 {
+        text-align: center;
+    }
+
+    .left, .right, .right2 {
+        width: 100%;
+    }
+
+    .right2 {
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .body {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .left, .right, .right2 {
+        width: 18%;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .footer1, .footer2 {
+        text-align: center;
+    }
+
+    p, div {
+        line-height: 1.5;
+    }
+}
